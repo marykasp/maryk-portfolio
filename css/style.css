@@ -1,0 +1,278 @@
+
+/*------------------------------------------
+COLORS
+
+#d6735e
+#427683
+/*------------------------------------------
+
+
+
+
+/*------------------------------------------
+BASIC SETUP
+--------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fff;
+	color: #444;
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-size: 18px;
+	word-spacing: 2px;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+}
+
+.row {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+section {
+	padding: 80px 0;
+}
+
+.box {
+	padding: 1%;
+}
+
+/*------------- HEADINGS --------------------*/
+
+.logo {
+	font-family:'Crete Round', serif;
+	color: #fff;
+	font-size: 45px;
+	word-spacing: 4px;
+	letter-spacing: 1px;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin-top: 20px;
+	float: left;
+}
+
+.logo span {
+	color: #d6735e;
+}
+
+h2, h3 {
+	text-transform: uppercase;
+	font-weight: 380;
+}
+
+h2 {
+	color: #fff;
+	font-size: 55px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 180%;
+	word-spacing: 2px;
+	text-align: center;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+}
+
+h3:after {
+	display: block;
+	height: 3px;
+	background-color: #d6735e;
+	content: " ";
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+h4 {
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.feature {
+	text-align: center;
+}
+
+p {
+	line-height: 25px;
+}
+
+
+/*------------- ICONS--------------------*/
+
+ion-icon {
+  font-size: 64px;
+  color: #427683;
+}
+
+/*------------- BUTTONS --------------------*/
+
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: 300;
+	text-decoration: none;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-cta:link, 
+.btn-cta:visited {
+	background-color: #427683;
+	border: 1px solid #427683;
+	color: #fff;
+	margin-right: 20px;
+}
+
+.btn-first:link,
+.btn-first:visited {
+	border: 1px solid #427683;
+	color: #fff;
+	margin-right: 20px;
+}
+
+.btn:hover,
+.btn:active {
+	background-color: #d6735e;
+}
+
+.btn-first:hover,
+.btn-first:active {
+	border: 1px solid #d6735e;
+}
+
+.btn-cta:hover,
+.btn-cta:active {
+	border: 1px solid #d6735e;
+	color: #fff;
+}
+
+/*------------------------------------------
+HEADER
+--------------------------------------------*/
+
+header {
+	background-image: url('../img/hero.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.hero-text-box {
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 60%;
+	transform: translate(-40%,-50%);
+}
+
+.hero-text-box h2 span {
+	color: #444;
+}
+
+.main-nav {
+	float: right;
+	list-style: none;
+	margin-top: 35px;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+	padding: 8px 0;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+	border-bottom: 2px solid #d6735e;
+}
+
+/*------------------------------------------
+FEATURES
+--------------------------------------------*/
+.section-features .long-copy {
+	margin-bottom: 30px;
+}
+
+.long-copy {
+	tex-align: center;
+	padding-right: 200px;
+	padding-left: 200px;
+/*	border: 1px solid black;*/
+}
+
+
+/*------------------------------------------
+ABOUT 
+--------------------------------------------*/
+.section-about {
+	background-color: #f6f6f6;
+	margin-bottom: 0;
+}
+
+.about {
+	text-align: justify;
+}
+
+/*------------------------------------------
+WORK
+--------------------------------------------*/
+.section-work {
+	padding: 0;
+}
+
+.work-showcase {
+	list-style: none;
+	width: 100%;
+}
+
+.work-showcase li {
+	display: block;
+	float: left;
+	width: 25%;
+}
+
+.work-photo {
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	background-color: #000;
+}
+
+.work-photo img {
+	opacity: 0.6;
+	width: 100%;
+	height: auto;
+	transform: scale(1.15);
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+.work-photo img:hover {
+	opacity: 1;
+	transform: scale(1.03);
+}
+
+
+/*------------------------------------------
+ABOUT PAGE
+--------------------------------------------*/
+
+.about-page {
+	background-color: #427683;
+}
