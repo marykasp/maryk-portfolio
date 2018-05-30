@@ -42,6 +42,11 @@ section {
 	padding: 1%;
 }
 
+.nav-page {
+	background-color: #427683;
+}
+
+
 /*------------- HEADINGS --------------------*/
 
 .logo {
@@ -214,7 +219,6 @@ FEATURES
 	tex-align: center;
 	padding-right: 200px;
 	padding-left: 200px;
-/*	border: 1px solid black;*/
 }
 
 
@@ -273,6 +277,18 @@ WORK
 ABOUT PAGE
 --------------------------------------------*/
 
-.about-page {
-	background-color: #427683;
+.section-middle {
+	padding-top: 0;
+}
+
+.about-photo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border: 20px solid #f6f6f6;
+}
+
+.section-middle h3 {
+	padding-top: 30px;
 }
