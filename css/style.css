@@ -269,6 +269,40 @@ WORK
 }
 
 
+/*------------------------------------------
+PROJECTS
+--------------------------------------------*/
+
+.section-projects img {
+	padding-right: 70px;
+	margin-top: 50px;
+	width: 400px;
+	height: auto;
+}
+
+.section-projects h4{
+	margin-top: 20px;
+	text-align: center;
+	padding-right: 55px;
+}
+
+.work-type {
+	margin-top: 20px;
+	text-align: center;
+	padding-right: 55px;
+}
+
+.section-projects a:link, a:visited {
+	text-decoration: none;
+	color: #427683;
+}
+
+.section-projects a:hover, a:active {
+	text-decoration: none;
+	color: #d6735e;
+}
+
+
 
 /*------------------------------------------
 ABOUT PAGE
@@ -277,3 +311,4 @@ ABOUT PAGE
 .about-page {
 	background-color: #427683;
 }
+
